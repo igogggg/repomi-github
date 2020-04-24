@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.sitepadding {
+    padding: 0 50px;
+}
+
+
+/*Style Header start*/
+
+.header {
+    background-color: #445161;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.header::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header_title {
+    line-height: 50px;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.header_list_item {
+    height: 19px;
+    padding-left: 35px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: url(./img/check_icon.png) no-repeat center left;
+    background-size: contain;
+}
+
+.header_list_item:last-child {
+    margin-bottom: 0;
+}
+
+.product_pic {
+    width: 469px;
+    height: 214px;
+    background-color: white;
+    float: right;
+}
+
+
+/*Style Header end*/
+
+
+/* Style About */
+
+.about_pic {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.about::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.about_title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 29px;
+}
+
+.about_text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.about_text:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Style About end */
+
+
+/* Style Dignity */
+
+.dignity {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.dignity_titel {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+
+/* Style Dignity end */
