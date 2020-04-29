@@ -48,7 +48,7 @@ body {
     padding-left: 35px;
     font-size: 20px;
     margin-bottom: 20px;
-    background: url(./img/check_icon.png) no-repeat center left;
+    background: url(/img/check_icon.png) no-repeat center left;
     background-size: contain;
 }
 
