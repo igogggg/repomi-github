@@ -48,7 +48,7 @@ body {
     padding-left: 35px;
     font-size: 20px;
     margin-bottom: 20px;
-    background: url(/img/check_icon.png) no-repeat center left;
+    background: url(../img/check_icon.png) no-repeat center left;
     background-size: contain;
 }
 
@@ -78,14 +78,14 @@ body {
 
 .about {
     box-sizing: border-box;
-    padding-top: 50px;
-    padding-bottom: 90px;
+    padding: 50px;
 }
 
 .about::after {
     content: "";
     display: block;
     width: 100%;
+    clear: both;
 }
 
 .about_title {
@@ -157,7 +157,7 @@ details:last-child span {
     display: inline-block;
     padding-left: 40px;
     margin-bottom: 20px;
-    background: url(/img/plus_icon.png) no-repeat center left;
+    background: url(../img/plus_icon.png) no-repeat center left;
     background-size: contain;
 }
 
@@ -377,9 +377,18 @@ details:last-child span {
     border: 0;
     border-radius: 5px;
     font-size: 18px;
+    color: #445162;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+.btn:hover {
+    color: gray;
+}
+
+.btn:active {
+    box-shadow: inset 2px 2px 5px gray;
 }
 
 
@@ -424,6 +433,14 @@ details:last-child span {
     align-self: center;
 }
 
+.footer_btn:hover {
+    color: gray;
+}
+
+.footer_btn:active {
+    box-shadow: inset 2px 2px 5px gray;
+}
+
 input {
     max-height: 40px;
     border: 0;
@@ -432,7 +449,7 @@ input {
     padding: 12px 10px;
 }
 
-textarea {
+#footer_text {
     border: 0;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -451,7 +468,7 @@ textarea {
 
 .footer_link_skype {
     padding-left: 30px;
-    background: url(/img/skype_icon.png) no-repeat center left;
+    background: url(../img/skype_icon.png) no-repeat center left;
     background-size: contain;
     margin-bottom: 18px;
     line-height: 22px;
@@ -459,7 +476,7 @@ textarea {
 
 .footer_link_icq {
     padding-left: 30px;
-    background: url(/img/icq_icon.png) no-repeat center left;
+    background: url(../img/icq_icon.png) no-repeat center left;
     background-size: contain;
     margin-bottom: 18px;
     line-height: 22px;
@@ -467,7 +484,7 @@ textarea {
 
 .footer_link_mail {
     padding-left: 30px;
-    background: url(/img/email_icon.png) no-repeat center left;
+    background: url(../img/email_icon.png) no-repeat center left;
     background-size: contain;
     margin-bottom: 18px;
     line-height: 22px;
@@ -475,7 +492,7 @@ textarea {
 
 .footer_link_tel {
     padding-left: 30px;
-    background: url(/img/phone_icon.png) no-repeat center left;
+    background: url(../img/phone_icon.png) no-repeat center left;
     background-size: contain;
     margin-bottom: 18px;
     line-height: 22px;
